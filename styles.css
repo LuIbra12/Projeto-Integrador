@@ -74,17 +74,68 @@ header nav a:hover {
     color:  #FFD500;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px; 
+p{
+    margin-top: 10px; /* Ajuste para o espaçamento abaixo do título */
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    margin-right: 850px;
+    top: -250px;
     position: relative;
+
 }
 
-.imagem {
-    position: absolute;
-    right: 0;  
-    transform: translateY(50%);  
-    top: 50%;  
+.button1 {
+    justify-content: flex-start;
+    background-color: #FFD500;
+    padding: 20px 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+    margin: left;
+    width: 400px;
+    height: 80px;
+    margin-right: 1000px;
+    margin-top: -1000px;
+    margin-bottom: -200px;
+    position: relative;
+    top: -130px;
 }
+
+.button1:hover{
+    background-color: #FFD700;
+    color: #00296b;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    background: rgb(61, 106, 255) !important;
+    border: none;
+    box-shadow: inset 0px 0px 5px 5px #ffffff25, 0 0 30px 5px rgba(0, 142, 236, 0.815) !important;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transform: scale(1.03);
+    transition: all 0.2s ease-out;
+}
+
+.button1 a {
+    text-decoration: none;
+}
+
+
+.minha-imagem {
+    width: 100%; /* Ajusta a largura da imagem para 100% do contêiner */
+    max-width: 550px; /* Limita a largura máxima da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-left: 800px;
+    margin-top: -700px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    flex: 1 1 calc(25% - 30px);
+    transition: transform 0.6s ease-in-out;
+}
+
+.minha-imagem:hover {
+
+    transform: scale(1.1); /* Aumenta o tamanho em 5% quando o mouse está sobre o card */
+
+} 
