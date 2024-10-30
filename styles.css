@@ -1,0 +1,90 @@
+body {
+    
+    background-color: #1240b3;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    border: #00296b;
+}
+
+header {
+    position: fixed;    
+    background-color: #00296b;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+header h1{
+    margin: 0;
+}
+
+header h1 a{
+    
+    color:#ddd;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+header nav li {
+  
+    font-size: 20px;
+}
+
+header nav a {
+    color: #FFD500;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: white;
+}
+
+.quizpt1 {
+    
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 100px;
+    text-align: left;
+    justify-content: space-around;
+    align-items: center;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 200px;
+    color: #fff;
+    justify-content: flex-start;
+    height: 300px;
+}  
+
+.destaque{
+    color:  #FFD500;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; 
+    position: relative;
+}
+
+.imagem {
+    position: absolute;
+    right: 0;  
+    transform: translateY(50%);  
+    top: 50%;  
+}
