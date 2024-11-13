@@ -18,5 +18,4 @@ https://trello.com/b/k89suqMP/projeto-integrador-teologia
 - Professor de Desenvolvimento-Web: José Matias Lemes Filho 
 - Professor de Teologia: José Antonio Boareto
 - Líder do Projeto: Lucas Leal Ibrahim
-- Programadores: 1.Felipe Ishizawa Diniz
-- 2.Mateus Souza Marinho
+- Programadores: Felipe Ishizawa Diniz e Mateus Souza Marinho
