@@ -1,11 +1,62 @@
 body {
     margin: 0;
     font-family: sans-serif;
-    background-color: aqua;
     background-size: cover;
     color:#fff;
     padding: 2em;
+    background-color: #1240b3;
+    border: #00296b;
+
 }
+
+
+header {
+    position: fixed;
+    background-color: #00296b;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 10;
+    
+}
+header h1{
+    margin: 0;
+}
+
+header h1 a{
+    
+    color:#ddd;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+header nav li {
+  
+    font-size: 20px;
+}
+
+header nav a {
+    color: #FFD500;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: white;
+}
+
+
 
 body::before {
     content: "";
@@ -19,10 +70,7 @@ body::before {
     position: fixed;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
+
 
 h1 {
     margin: 0.3em;
@@ -49,16 +97,71 @@ h2 {
 }
 
 .checkpoint {
+    
     max-width: 34em;
     padding-top: 2em;
     padding-bottom: 2em;
     position: relative;
 }
 
-.checkpoint div {
+.checkpoint .ex2 {
     border: 2px solid #888;
     border-radius: 1em;
     padding: 1.5em;
+    background-image: url('https://pikaso.cdnpk.net/private/production/1006057923/render.jpeg?token=exp=1753142400~hmac=6f7988bb695010787d5d6e7172072b1d14a31d03a2bf9d260792634db1dce99a');
+    background-size: cover; /* Ajusta a imagem para cobrir todo o espaço do checkpoint */
+    background-position: center center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+}
+
+.checkpoint .ex {
+    border: 2px solid #888;
+    border-radius: 1em;
+    padding: 1.5em;
+    background-image: url('https://cdn.prod.website-files.com/60ff690cd7b0537edb99a29a/616f3f4971b25c859acab2af_Filosofia%20patr%C3%ADstica.jpg');
+    background-size: cover; /* Ajusta a imagem para cobrir todo o espaço do checkpoint */
+    background-position: center center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+}
+
+.checkpoint .ex3 {
+    border: 2px solid #888;
+    border-radius: 1em;
+    padding: 1.5em;
+    background-color: #FFD500;
+    background-size: contain; /* Ajusta a imagem para caber dentro da área sem cortar */
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.checkpoint .ex4 {
+    border: 2px solid #888;
+    border-radius: 1em;
+    padding: 1.5em;
+    background-color: #FFD500;
+    background-size: contain; /* Ajusta a imagem para caber dentro da área sem cortar */
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.checkpoint .ex5 {
+    border: 2px solid #888;
+    border-radius: 1em;
+    padding: 1.5em;
+    background-color: #FFD500;
+    background-size: contain; /* Ajusta a imagem para caber dentro da área sem cortar */
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.checkpoint .ex6 {
+    border: 2px solid #888;
+    border-radius: 1em;
+    padding: 1.5em;
+    background-color: #FFD500;
+    background-size: contain; /* Ajusta a imagem para caber dentro da área sem cortar */
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .checkpoint p {
