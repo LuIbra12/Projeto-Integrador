@@ -87,11 +87,8 @@ h2 {
 }
 
 .timeline {
-    display: flex;
-    flex-direction: column; /* Alinha os checkpoints na vertical */
-    gap: 2em; /* Espaçamento entre os checkpoints */
-    margin: 0 auto;
-    width: 80%; /* Controla a largura da linha do tempo */
+    margin: 5em auto;
+    max-width: 34.15em;
 }
 
 .checkpoint a {
@@ -99,12 +96,7 @@ h2 {
     display: block; /* Faz com que o link ocupe toda a área do checkpoint */
 }
 
-.checkpoint {
-    text-decoration: none;
-    position: relative;
-    padding-left: 30px; /* Cria espaço à esquerda para o ponto da linha do tempo */
-    border-left: 2px solid #888; 
-}
+
 
 .checkpoint .ex1 {
     border: 2px solid #888;
