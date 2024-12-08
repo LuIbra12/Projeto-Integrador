@@ -8,11 +8,11 @@ body {
     border: #00296b;
     overflow-x: hidden;
     text-decoration: none;
-
-}
-
-
-header {
+  
+  }
+  
+  
+  header {
     position: absolute;
     background-color: #00296b;
     top: 0;
@@ -27,78 +27,79 @@ header {
     z-index: 20;
     position: fixed;
     
-}
-header h1{
+  }
+  header h1{
     margin: 0;
     font-size: 30px;
-}
-
-header h1 a{
+  }
+  
+  header h1 a{
     
     color:#ddd;
     text-decoration: none;
-}
-
-header nav ul {
+  }
+  
+  header nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     gap: 20px;
     display: inline-flex;
     justify-content: space-around;
-}
-
-header nav li {
+  }
+  
+  header nav li {
   
     font-size: 20px;
-}
-
-header nav a {
+  }
+  
+  header nav a {
     color: #FFD500;
     text-decoration: none;
-}
-
-header nav a:hover {
+  }
+  
+  header nav a:hover {
     color: white;
-}
-
-h1 {
+  }
+  
+  h1 {
     margin: 0.3em;
     font-size: 3em;
-    color: inherit;
+    color: yellow;
     text-decoration: none;
-}
-
-h2 {
+  }
+  
+  h2 {
     margin-bottom: 0.5em;
     text-decoration: none;
     color: inherit;
-}
-
-.title {
+  }
+  
+  .title {
     text-align: center;
-}
-
-.title p {
+  }
+  
+  .title p {
     color: #fff;
     font-size: 1.3em;
     letter-spacing: 2px;
     text-decoration: none;
-}
-
-.timeline {
+  }
+  
+  .timeline {
     margin: 5em auto;
     max-width: 34.15em;
-}
-
-.checkpoint a {
+  }
+  
+  .checkpoint a {
     text-decoration: none; /* Remove o sublinhado dos links */
     display: block; /* Faz com que o link ocupe toda a área do checkpoint */
-}
-
-
-
-.checkpoint .ex1 {
+  }
+  
+  
+  
+  .checkpoint .ex1 {
+    color: #ddd;
     border: 2px solid #888;
     border-radius: 1em;
     padding: 1.5em;
@@ -106,82 +107,119 @@ h2 {
     background-position: center center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Impede que a imagem se repita */
     text-decoration: none;
-}
-
-.checkpoint .ex2 {
+  }
+  
+  .checkpoint .ex2 {
     border: 2px solid #888;
+    color: #ddd;
+  
     border-radius: 1em;
     padding: 1.5em;
     background-size: cover; /* Ajusta a imagem para cobrir todo o espaço do checkpoint */
     background-position: center center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Impede que a imagem se repita */
     text-decoration: none;
-}
-
-.checkpoint .ex3 {
+  }
+  
+  .checkpoint .ex3 {
     border: 2px solid #888;
     border-radius: 1em;
+    color: #ddd;
     padding: 1.5em;
     
     background-size: contain; /* Ajusta a imagem para caber dentro da área sem cortar */
     background-position: center center;
     background-repeat: no-repeat;
-}
-
-.checkpoint .ex4 {
+  }
+  
+  .checkpoint .ex4 {
     border: 2px solid #888;
     border-radius: 1em;
     padding: 1.5em;
-    
+    color: #ddd;
+  
     background-size: contain; /* Ajusta a imagem para caber dentro da área sem cortar */
     background-position: center center;
     background-repeat: no-repeat;
-}
-
-.checkpoint .ex5 {
+  }
+  
+  .checkpoint .ex5 {
     border: 2px solid #888;
     border-radius: 1em;
     padding: 1.5em;
-    
+    color: #ddd;
+  
     background-size: contain; /* Ajusta a imagem para caber dentro da área sem cortar */
     background-position: center center;
     background-repeat: no-repeat;
-}
-
-.checkpoint .ex6 {
+  }
+  
+  .checkpoint .ex6 {
     border: 2px solid #888;
     border-radius: 1em;
     padding: 1.5em;
-    
+    color: #ddd;
+  
     background-size: contain; /* Ajusta a imagem para caber dentro da área sem cortar */
     background-position: center center;
     background-repeat: no-repeat;
-}
-
-.checkpoint .ex2 h2 {
+  }
+  
+  .checkpoint .ex1 h2 {
     font-size: 1.5em;
     margin-bottom: 10px;
-}
-
-.checkpoint .ex2 p {
-
+    color: yellow;
+  }
+  
+  .checkpoint .ex2 h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: yellow;
+  }
+  
+  .checkpoint .ex3 h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: yellow;
+  }
+  
+  .checkpoint .ex4 h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: yellow;
+  }
+  
+  .checkpoint .ex5 h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: yellow;
+  }
+  .checkpoint .ex6 h2 {
+  
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: yellow;
+  }
+  
+  .checkpoint .ex2 p {
+  
     text-decoration: none;
-}
-
-.checkpoint:nth-child(odd) {
+  }
+  
+  .checkpoint:nth-child(odd) {
     border-left: 3px solid #888;
     padding-left: 3em;
     transform: translateX(17em);
-}
-
-.checkpoint:nth-child(even) {
+  }
+  
+  .checkpoint:nth-child(even) {
     border-right: 3px solid #888;
     padding-right: 3em;
     transform: translateX(-17em);
-}
-
-.checkpoint:nth-child(odd)::before,
-.checkpoint:nth-child(even)::before {
+  }
+  
+  .checkpoint:nth-child(odd)::before,
+  .checkpoint:nth-child(even)::before {
     content: '';
     background: #888;
     width: 3em;
@@ -189,18 +227,18 @@ h2 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-}
-
-.checkpoint:nth-child(odd)::before {
+  }
+  
+  .checkpoint:nth-child(odd)::before {
     left: 0;
-}
-
-.checkpoint:nth-child(even)::before {
+  }
+  
+  .checkpoint:nth-child(even)::before {
     right: 0;
-}
-
-.checkpoint:nth-child(odd) div::before,
-.checkpoint:nth-child(even) div::before {
+  }
+  
+  .checkpoint:nth-child(odd) div::before,
+  .checkpoint:nth-child(even) div::before {
     content: '';
     background: #fff;
     box-shadow: 0 0 0.5em #0d71fc;
@@ -211,17 +249,17 @@ h2 {
     transform: translateY(-50%);
     border-radius: 50%;
     text-decoration: none;
-}
-
-.checkpoint:nth-child(odd) div::before {
+  }
+  
+  .checkpoint:nth-child(odd) div::before {
     left: -0.5em;
-}
-
-.checkpoint:nth-child(even) div::before {
+  }
+  
+  .checkpoint:nth-child(even) div::before {
     right: -0.5em;
-}
-
-@media screen and (max-width: 1150px) {
+  }
+  
+  @media screen and (max-width: 1150px) {
     .timeline {
         width: 80vw;
     }
@@ -244,4 +282,4 @@ h2 {
         left: 50%;
         transform: translateX(-50%);
     }
-}
+  }

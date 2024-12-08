@@ -1,0 +1,141 @@
+body {
+    
+    background-color: #1240b3;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    border: #00296b;
+}
+
+header {
+    position: fixed;    
+    background-color: #00296b;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+header h1{
+    margin: 0;
+}
+
+header h1 a{
+    
+    color:#ddd;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+header nav li {
+  
+    font-size: 20px;
+}
+
+header nav a {
+    color: #FFD500;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: white;
+}
+
+.quizpt1 {
+    
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 100px;
+    text-align: left;
+    justify-content: space-around;
+    align-items: center;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 200px;
+    color: #fff;
+    justify-content: flex-start;
+    height: 300px;
+}  
+
+.destaque{
+    color:  #FFD500;
+}
+
+p{
+    margin-top: 10px; /* Ajuste para o espaçamento abaixo do título */
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    margin-right: 550px;
+    top: -250px;
+    position: relative;
+
+}
+
+.button1 {
+    justify-content: flex-start;
+    background-color: #FFD500;
+    padding: 20px 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+    margin: left;
+    width: 400px;
+    height: 80px;
+    margin-right: 650px;
+    margin-top: -1100px;
+    margin-bottom: -300px;
+    position: relative;
+    top: -180px;
+}
+
+.button1:hover{
+    background-color: #FFD700;
+    color: #00296b;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    background: rgb(61, 106, 255) !important;
+    border: none;
+    box-shadow: inset 0px 0px 5px 5px #ffffff25, 0 0 30px 5px rgba(0, 142, 236, 0.815) !important;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transform: scale(1.03);
+    transition: all 0.2s ease-out;
+}
+
+.button1 a {
+    text-decoration: none;
+}
+
+
+.minha-imagem {
+    width: 100%; /* Ajusta a largura da imagem para 100% do contêiner */
+    max-width: 550px; /* Limita a largura máxima da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-left: 800px;
+    margin-top: -700px;
+    border: 2px solid #1240b3;
+    border-radius: 20px;
+    flex: 1 1 calc(25% - 30px);
+    transition: transform 0.6s ease-in-out;
+}
+
+.minha-imagem:hover {
+
+    transform: scale(1.1); /* Aumenta o tamanho em 5% quando o mouse está sobre o card */
+
+} 
