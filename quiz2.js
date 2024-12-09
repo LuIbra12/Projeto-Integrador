@@ -1,30 +1,32 @@
 const questions = [
     {
-        question: "1. O que a teologia medieval procurava conciliar?",
-        answers: ["A) A fé cristã com a razão humana ", "B) O cristianismo com as religiões pagãs", "C) A Igreja com o Estado Moderno", "D) A razão humana com os mistérios do paganismo"],
-        correctAnswer: 0
+        question: "O que a teologia medieval procurava conciliar?",
+        answers: ["A fé cristã com a razão humana", "O cristianismo com as religiões pagãs", "A Igreja com o Estado Moderno", "A razão humana com os mistérios do paganismo"],
+        correctAnswer: 0 // Índice correspondente à resposta correta: "A fé cristã com a razão humana"
     },
     {
-        question: "2. Qual filósofo e teólogo medieval usou a filosofia aristotélica para sistematizar a teologia cristã?",
-        answers: ["A) Santo Agostinho", "B) Tomás de Aquino ", "C) Anselmo de Cantuária", "D) Duns Scoto"],
-        correctAnswer: 1
+        question: "Qual filósofo e teólogo medieval usou a filosofia aristotélica para sistematizar a teologia cristã?",
+        answers: ["Santo Agostinho", "Tomás de Aquino", "Anselmo de Cantuária", "Duns Scoto"],
+        correctAnswer: 1 // Índice correspondente à resposta correta: "Tomás de Aquino"
     },
     {
-        question: "3. Qual foi o principal método de ensino utilizado pela escolástica medieval?",
-        answers: ["A) Ensino direto e sem questionamento", "B) Método dialético com questões, objeções e respostas", "C) Ensino puramente bíblico sem raciocínio lógico", "D) Método experimental com provas científicas"],
-        correctAnswer: 1
+        question: "Qual foi o principal método de ensino utilizado pela escolástica medieval?",
+        answers: ["Ensino direto e sem questionamento", "Método dialético com questões, objeções e respostas", "Ensino puramente bíblico sem raciocínio lógico", "Método experimental com provas científicas"],
+        correctAnswer: 1 // Índice correspondente à resposta correta: "Método dialético com questões, objeções e respostas"
     },
     {
-        question: "4. Quem foi o autor do “argumento ontológico” para a existência de Deus?",
-        answers: ["A) Pedro Abelardo", "B) Anselmo de Cantuária", "C) Tomás de Aquino", "D) Guillaume de Ockham"],
-        correctAnswer: 1
+        question: "Quem foi o autor do 'argumento ontológico' para a existência de Deus?",
+        answers: ["Pedro Abelardo", "Anselmo de Cantuária", "Tomás de Aquino", "Guillaume de Ockham"],
+        correctAnswer: 1 // Índice correspondente à resposta correta: "Anselmo de Cantuária"
     },
     {
-        question: "5. Qual teólogo medieval é conhecido pela ideia da “Navalha de Ockham”?",
-        answers: ["A) Duns Scoto", "B) Guillaume de Ockham", "C) Tomás de Aquino", "D) Santo Agostinho"],
-        correctAnswer: 1
+        question: "Qual teólogo medieval é conhecido pela ideia da 'Navalha de Ockham'?",
+        answers: ["Duns Scoto", "Guillaume de Ockham", "Tomás de Aquino", "Santo Agostinho"],
+        correctAnswer: 1 // Índice correspondente à resposta correta: "Guillaume de Ockham"
     }
 ];
+
+
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -107,26 +109,36 @@ function displayResult() {
 
 function redirectToTimeline(answer) {
     if (answer) {
-        window.location.href = 'linhadotempo.html'; // Redireciona para a Linha do Tempo
+        window.location.href = 'Linhadotempo.html'; // Redireciona para a Linha do Tempo
     } else {
         window.location.href = 'Ciberfe.html'; // Redireciona de volta para o Quiz
     }
 }
-
 function startTimer() {
     timer = setInterval(() => {
         const timerBarInner = document.querySelector('.timer-bar-inner');
-        
+
         if (timeLeft > 0) {
             timeLeft--;
-            const percentage = (timeLeft / 15) * 100;  // Calcula a porcentagem de tempo restante
-            timerBarInner.style.width = `${percentage}%`;  // Atualiza a largura da barra verde
+            const percentage = (timeLeft / 15) * 100;
+            timerBarInner.style.width = `${percentage}%`;
+
+            // Alteração de cor com base no tempo restante
+            if (timeLeft <= 5) {
+                timerBarInner.style.backgroundColor = 'red';
+            } else if (timeLeft <= 10) {
+                timerBarInner.style.backgroundColor = 'yellow';
+            } else {
+                timerBarInner.style.backgroundColor = 'green';
+            }
         } else {
             clearInterval(timer);
-            recordAnswer(null); // Chama recordAnswer automaticamente quando o tempo acaba
+            recordAnswer(null);
         }
     }, 1000);
 }
+
+
 
 // Função para resetar o temporizador
 function resetTimer() {
