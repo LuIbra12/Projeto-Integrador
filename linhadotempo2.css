@@ -1,0 +1,287 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-size: cover;
+  color:#fff;
+  padding: 2em;
+  background-color: #1240b3;
+  border: #00296b;
+  overflow-x: hidden;
+  text-decoration: none;
+
+}
+
+
+header {
+  position: absolute;
+  background-color: #00296b;
+  top: 0;
+  box-sizing: border-box;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 20;
+  position: fixed;
+  
+}
+header h1{
+  margin: 0;
+  font-size: 30px;
+}
+
+header h1 a{
+  
+  color:#ddd;
+  text-decoration: none;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+header nav li {
+
+  font-size: 20px;
+}
+
+header nav a {
+  color: #FFD500;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  color: white;
+}
+
+h1 {
+  margin: 0.3em;
+  font-size: 3em;
+  color: yellow;
+  text-decoration: none;
+}
+
+h2 {
+ color: black;
+  margin-bottom: 0.5em;
+  text-decoration: none;
+  color: inherit;
+}
+
+.title {
+  text-align: center;
+}
+
+.title p {
+  color: #fff;
+  font-size: 1.3em;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.timeline {
+  margin: 5em auto;
+  max-width: 34.15em;
+}
+
+.checkpoint a {
+  text-decoration: none; /* Remove o sublinhado dos links */
+  display: block; /* Faz com que o link ocupe toda a área do checkpoint */
+}
+
+
+
+
+.checkpoint .ex1 {
+  background-image: url('https://cdn.prod.website-files.com/60ff690cd7b0537edb99a29a/616f3f4971b25c859acab2af_Filosofia%20patr%C3%ADstica.jpg'); 
+     color: #ddd;
+  border: 2px solid #888;
+  border-radius: 1em;
+  padding: 1.5em;
+  background-size: cover; /* Ajusta a imagem para cobrir todo o espaço do checkpoint */
+  background-position: center center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Impede que a imagem se repita */
+  text-decoration: none;
+}
+
+.checkpoint .ex2 {  background-image: url('https://aventurasnahistoria.com.br/media/_versions/capa_idade_das_luzes_widelg.jpeg'); 
+  color: #ddd;
+border: 2px solid #888;
+border-radius: 1em;
+padding: 1.5em;
+background-size: cover; /* Ajusta a imagem para cobrir todo o espaço do checkpoint */
+background-position: center center; /* Centraliza a imagem */
+background-repeat: no-repeat; /* Impede que a imagem se repita */
+text-decoration: none;
+}
+
+.checkpoint .ex3 {  background-image: url('https://medias.revistaoeste.com/wp-content/uploads/2022/11/destaque-reforma-protestante.jpg'); 
+  color: #ddd;
+border: 2px solid #888;
+border-radius: 1em;
+padding: 1.5em;
+background-size: cover; /* Ajusta a imagem para cobrir todo o espaço do checkpoint */
+background-position: center center; /* Centraliza a imagem */
+background-repeat: no-repeat; /* Impede que a imagem se repita */
+text-decoration: none;  }
+
+.checkpoint .ex4 {  
+   background-image: url('https://images.educamaisbrasil.com.br/content/banco_de_imagens/mb/D/renascimento-obra-michelangelo.jpg'); 
+  color: #ddd;
+border: 2px solid #888;
+border-radius: 1em;
+padding: 1.5em;
+background-size: cover; /* Ajusta a imagem para cobrir todo o espaço do checkpoint */
+background-position: center center; /* Centraliza a imagem */
+background-repeat: no-repeat; /* Impede que a imagem se repita */
+text-decoration: none;
+}
+
+.checkpoint .ex5 {  background-image: url('https://www.colegiotgm.com.br/wp-content/uploads/2019/11/Periodizacao-tradicional-da-historia-saiba-como-os-periodos-sao-classificados-1.jpg'); 
+  color: #ddd;
+border: 2px solid #888;
+border-radius: 1em;
+padding: 1.5em;
+background-size: cover; /* Ajusta a imagem para cobrir todo o espaço do checkpoint */
+background-position: center center; /* Centraliza a imagem */
+background-repeat: no-repeat; /* Impede que a imagem se repita */
+text-decoration: none;
+}
+
+.checkpoint .ex6 {  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWdiNv12cgfjYqbf4m9_Au_V4l6GFh0-0QhQ&s'); 
+  color: #ddd;
+border: 2px solid #888;
+border-radius: 1em;
+padding: 1.5em;
+background-size: cover; /* Ajusta a imagem para cobrir todo o espaço do checkpoint */
+background-position: center ; /* Centraliza a imagem */
+background-repeat: no-repeat; /* Impede que a imagem se repita */
+text-decoration: none;
+}
+
+.checkpoint .ex1 h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.checkpoint .ex2 h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.checkpoint .ex3 h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.checkpoint .ex4 h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.checkpoint .ex5 h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: white;
+}
+.checkpoint .ex6 h2 {
+
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.checkpoint .ex2 p {
+
+  text-decoration: none;
+}
+
+.checkpoint:nth-child(odd) {
+  border-left: 3px solid #888;
+  padding-left: 3em;
+  transform: translateX(17em);
+}
+
+.checkpoint:nth-child(even) {
+  border-right: 3px solid #888;
+  padding-right: 3em;
+  transform: translateX(-17em);
+}
+
+.checkpoint:nth-child(odd)::before,
+.checkpoint:nth-child(even)::before {
+  content: '';
+  background: #888;
+  width: 3em;
+  height: 3px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.checkpoint:nth-child(odd)::before {
+  left: 0;
+}
+
+.checkpoint:nth-child(even)::before {
+  right: 0;
+}
+
+.checkpoint:nth-child(odd) div::before,
+.checkpoint:nth-child(even) div::before {
+  content: '';
+  background: #fff;
+  box-shadow: 0 0 0.5em #0d71fc;
+  width: 0.8em;
+  height: 0.8em;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.checkpoint:nth-child(odd) div::before {
+  left: -0.5em;
+}
+
+.checkpoint:nth-child(even) div::before {
+  right: -0.5em;
+}
+
+@media screen and (max-width: 1150px) {
+  .timeline {
+      width: 80vw;
+  }
+  .timeline .checkpoint {
+      width: 100%;
+      transform: none;
+      padding-left: 0;
+      padding-right: 0;
+      border: none;
+  }
+  .timeline .checkpoint::before {
+      width: 3px;
+      height: 4em;
+      top: -2em;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+  .timeline .checkpoint div::before {
+      top: -0.5em;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+}

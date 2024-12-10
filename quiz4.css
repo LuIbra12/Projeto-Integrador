@@ -1,0 +1,160 @@
+body {
+    background-color: #1240b3;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    flex-direction: column; /* Para empilhar os elementos na tela */
+    justify-content: flex-start; /* Para garantir que tudo fique no topo */
+}
+
+header {
+    position: fixed;
+    background-color: #00296b;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h1 a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+header nav li {
+    font-size: 20px;
+}
+
+header nav a {
+    color: #FFD500;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: white;
+}
+
+.titulo h1 {
+    color: white;
+    margin-top: 100px; /* Adicionando margem para garantir que o título não fique colado ao topo */
+}
+
+.container {
+    margin-top: 50px; /* Garante que o container fique abaixo do título */
+    border: 5px solid #FFD500;
+    padding: 400px; /* Ajustando o padding para melhor visualização */
+    background-color: #00296b;
+    border-radius: 100px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    width: 90%; /* Responsividade */
+}
+
+.quiz-container {
+    text-align: center;
+    width: 100%;
+}
+
+.question-section h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.answers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.answer {
+    padding: 20px;
+    font-size: 1.2em;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+.answer:hover {
+    transform: scale(1.05);
+}
+
+.answer-1 { background-color: #FF5959; } /* Red */
+.answer-2 { background-color: #FFD93D; } /* Yellow */
+.answer-3 { background-color: #4BAEA0; } /* Green */
+.answer-4 { background-color: #408AD2; } /* Blue */
+
+.timer-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #ddd; /* A barra de fundo que fica fixa */
+    margin-top: 20px;
+    position: relative;
+}
+
+.timer-bar-inner {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #4CAF50; /* A barra verde que diminui */
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: width 1s linear;
+}
+
+ 
+@keyframes timer {
+    from { width: 100%; }
+    to { width: 0; }
+}
+
+.button {
+    display: inline-block;
+    background-color: #FFD500;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #FFB800;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
