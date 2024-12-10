@@ -1,27 +1,27 @@
 const questions = [
     {
-        question: "Quem foi o autor da maioria das cartas do Novo Testamento?",
-        answers: ["Pedro", "João", "Paulo", "Tiago"],
-        correctAnswer: 2
-    },
-    {
-        question: "Quantos livros há na Bíblia?",
-        answers: ["39", "66", "73", "27"],
+        question: "1. Qual é o principal objetivo dos Pais da Igreja durante o período patrístico?",
+        answers: ["A) Combater o Império Romano", "B) Estabelecer e defender a ortodoxia cristã", "C) Expandir o cristianismo para outros continentes", "D) Criar evangelhos"],
         correctAnswer: 1
     },
     {
-        question: "Qual é o primeiro livro da Bíblia?",
-        answers: ["Êxodo", "Gênesis", "Levítico", "Números"],
+        question: "2. Qual concílio ecumênico emitiu o Credo Niceno?",
+        answers: ["A) Concílio de Calcedônia", "B) Concílio de Nicéia", "C) Concílio de Éfeso", "D) Concílio de Trento"],
         correctAnswer: 1
     },
     {
-        question: "Qual é o significado da palavra 'Evangelho'?",
-        answers: ["História Sagrada", "Boas Novas", "Relato dos Apóstolos", "Mensagem de Deus"],
-        correctAnswer: 1
+        question: "3. Quem foi o autor da tradução da Bíblia para o latim conhecida como Vulgata?",
+        answers: ["A) São Jerônimo ", "B) Santo Agostinho", "C) São Gregório de Nazianzo", "D) Irineu de Lyon "],
+        correctAnswer: 0
     },
     {
-        question: "Quem libertou os israelitas da escravidão no Egito?",
-        answers: ["José", "Moisés", "Davi", "Salomão"],
+        question: "4. O que foi o foco principal das discussões no Concílio de Calcedônia? ",
+        answers: ["A) A natureza de Cristo", "B) A autoridade papal", "C) O poder dos imperadores romanos", "D) O crescimento da Igreja na Ásia "],
+        correctAnswer: 0
+    },
+    {
+        question: "5. Quem foi fundamental na definição da doutrina da Trindade durante o período patrístico? ",
+        answers: ["A) São João Crisóstomo", "B) São Gregório de Nazianzo", "C) Irineu de Lyon", "D) São Jerônimo"],
         correctAnswer: 1
     }
 ];
