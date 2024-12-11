@@ -109,7 +109,7 @@ function redirectToTimeline(answer) {
     if (answer) {
         window.location.href = 'linhadotempo.html'; // Redireciona para a Linha do Tempo
     } else {
-        window.location.href = 'Ciberfe.html'; // Redireciona de volta para o Quiz
+        window.location.href = 'index.html'; // Redireciona de volta para o Quiz
     }
 }
 
