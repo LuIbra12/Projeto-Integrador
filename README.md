@@ -17,60 +17,65 @@ https://trello.com/b/k89suqMP/projeto-integrador-teologia
 
 - Professor de Desenvolvimento-Web: José Matias Lemes Filho 
 - Professor de Teologia: José Antonio Boareto
-- Líder do Projeto: Lucas Leal Ibrahim
-- Programadores: Felipe Ishizawa Diniz e Mateus Souza Marinho
+- Líder do Projeto: Lucas Leal Ibrahim - 24014012
+- Programador: Felipe Ishizawa Diniz - 24002300
+- Programador:  Mateus Souza Marinho - 24005497
+
+### Link do repositório:
+- https://github.com/LuIbra12/Projeto-Integrador.git
 
 ### Telas do Site
  
-  Página incial:
+ ### Página inicial:
+
   
-    ![image](https://github.com/user-attachments/assets/f51673ba-f6c4-4a1f-a75f-da1c40767978)
+   ![image](https://github.com/user-attachments/assets/f51673ba-f6c4-4a1f-a75f-da1c40767978)
+
+  
+   ![image](https://github.com/user-attachments/assets/8c212a72-6baa-487f-83e4-98512e7a6b8b)
 
 
-    ![image](https://github.com/user-attachments/assets/8c212a72-6baa-487f-83e4-98512e7a6b8b)
+   ![image](https://github.com/user-attachments/assets/0b7b2a39-1d4f-4be2-a8c9-409f28904e82)
 
 
-    ![image](https://github.com/user-attachments/assets/0b7b2a39-1d4f-4be2-a8c9-409f28904e82)
+ ### Linha do Tempo:
+
+   ![image](https://github.com/user-attachments/assets/f9c89bbb-a28b-4d8a-81a8-ddf208d03377)
 
 
-  Linha do Tempo:
-
-    ![image](https://github.com/user-attachments/assets/f9c89bbb-a28b-4d8a-81a8-ddf208d03377)
+   ![image](https://github.com/user-attachments/assets/12e3800b-10c6-48e2-9377-283f7821009b)
 
 
-    ![image](https://github.com/user-attachments/assets/12e3800b-10c6-48e2-9377-283f7821009b)
+ ### Página inicial do quiz:
+
+   ![image](https://github.com/user-attachments/assets/a48e2799-00b6-44f2-86cc-2e737004692c)
 
 
-  Página inicial do quiz:
+ ### Regras do quiz:
 
-    ![image](https://github.com/user-attachments/assets/a48e2799-00b6-44f2-86cc-2e737004692c)
-
-
-  Regras do quiz:
-
-    ![image](https://github.com/user-attachments/assets/eacc746d-a396-4d85-a37a-4dd54b9a67f4)
+   ![image](https://github.com/user-attachments/assets/eacc746d-a396-4d85-a37a-4dd54b9a67f4)
 
 
-    ![image](https://github.com/user-attachments/assets/8c018af7-3605-4e25-ad1a-c4c2b46658a7)
+   ![image](https://github.com/user-attachments/assets/8c018af7-3605-4e25-ad1a-c4c2b46658a7)
 
 
-    ![image](https://github.com/user-attachments/assets/7c7e4417-7f6d-417b-94e6-40810a0700e9)
+   ![image](https://github.com/user-attachments/assets/7c7e4417-7f6d-417b-94e6-40810a0700e9)
 
 
-  Escolher tema do quiz:
+ ### Escolher tema do quiz:
 
-    ![image](https://github.com/user-attachments/assets/909d39cb-eb41-447b-92fb-ad8cc08973cf)
-
-
-    ![image](https://github.com/user-attachments/assets/cc970f45-63b7-4688-8e7e-e6182b92f484)
+   ![image](https://github.com/user-attachments/assets/909d39cb-eb41-447b-92fb-ad8cc08973cf)
 
 
-  Página do quiz:
-
-    ![image](https://github.com/user-attachments/assets/d1dc732f-45b6-4f9c-abe0-eb5cb5fc7177)
+   ![image](https://github.com/user-attachments/assets/cc970f45-63b7-4688-8e7e-e6182b92f484)
 
 
-    ![image](https://github.com/user-attachments/assets/9870f1ec-aa9c-4159-889a-769258de7050)
+###  Página do quiz:
+
+   ![image](https://github.com/user-attachments/assets/d1dc732f-45b6-4f9c-abe0-eb5cb5fc7177)
+
+
+   ![image](https://github.com/user-attachments/assets/9870f1ec-aa9c-4159-889a-769258de7050)
 
 
 
